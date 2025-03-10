@@ -1,4 +1,4 @@
-module proto
+module github.com/DianaChekhova/learn_grpc
 
 go 1.23
 
