@@ -7,7 +7,7 @@ syntax = "proto3";
 package auth;
 
 // Настройки для генерации Go кода.
-option go_package = "zverkov.learngrpc.v1;zlg1";
+option go_package = "github.com/DianaChekhova/zlg1/gen/go/zlg1";
 
 // Auth is service for managing permissions and roles.
 service Auth {

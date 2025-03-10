@@ -5,5 +5,5 @@ tasks:
     aliases:
       - gen
     cmds:
-      - protoc -I learn_grpc learn_grpc/grpc_learn.proto --go_out=./gen/go/learn_grpc --go_opt=paths=source_relative --go-grpc_out=./gen/go/learn_grpc --go-grpc_opt=paths=source_relative
+      - protoc -I learn_grpc learn_grpc/grpc_learn.proto --go_out=./gen/go/zlg1 --go_opt=paths=source_relative --go-grpc_out=./gen/go/zlg1 --go-grpc_opt=paths=source_relative
     desc: Генерация Protobuf
